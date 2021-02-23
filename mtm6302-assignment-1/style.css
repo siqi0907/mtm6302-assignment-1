@@ -1,0 +1,23 @@
+.emoji{
+    font-size: 30px;
+}
+.items{
+    border: 3px solid transparent;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+    animation-name: show;
+    animation-duration: 3s;
+}
+.items:hover{
+    border: 3px solid cornflowerblue;
+    box-shadow: 0px 0px 5px 0px cornflowerblue;
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
